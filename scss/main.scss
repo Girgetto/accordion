@@ -1,0 +1,69 @@
+$color_firefly_approx: #152935;
+$color_bismark_approx: #517489;
+$white: white;
+$seashell: #f1f1f1;
+
+$font_0: Roboto;
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.container {
+	margin: 0 auto;
+	padding: 50px;
+}
+.title {
+	width: 121px;
+	height: 68px;
+	font-family: $font_0;
+	font-size: 30px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.06;
+	letter-spacing: normal;
+	text-align: left;
+	color: $color_firefly_approx;
+	margin-bottom: 20px;
+}
+.label {
+	width: 40px;
+	height: 24px;
+	font-family: $font_0;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: $color_bismark_approx;
+	display: inline;
+	margin-left: 5px;
+}
+.Snackwave-post-ironi {
+	width: 430px;
+	font-family: $font_0;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: $color_firefly_approx;
+	padding: 0 18px;
+	background-color: $white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	border-bottom: solid 2px $seashell;
+}
+.chevron--right {
+	object-fit: contain;
+	transform: rotate(-90deg);
+}
+button {
+	padding: 0;
+	border: none;
+	background: none;
+}
