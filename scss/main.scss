@@ -61,9 +61,14 @@ $font_0: Roboto;
 .chevron--right {
 	object-fit: contain;
 	transform: rotate(-90deg);
+	outline: none;
 }
 button {
 	padding: 0;
 	border: none;
 	background: none;
+}
+
+button:focus{
+	outline: none;
 }
